@@ -27,7 +27,7 @@ app.get('/beers', (req, res, next) => {
   punkAPI.getBeers()
   // responseFromDB is just placeholder, can be any word
   .then(responseFromDB => { // =================================> ".this()" holds success callback 
-    // console.log("Response is:", responseFromDB );
+    console.log("Response is:", responseFromDB );
 
                         // we are renaming responseFromDB to allBeers variable 
                         // which we'll use in the views
